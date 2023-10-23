@@ -1,0 +1,71 @@
+/* Generell stil for mobilversjon */
+
+/* Header-stil */
+header {
+    background-color: #9800f0; /* Bakgrunnsfarge for header */
+    color: #fff; /* Tekstfarge for header */
+    padding: 20px; /* Padding for header */
+    text-align: center;
+}
+
+/* Navigasjon-stil */
+nav {
+    background-color: #deff0b; /* Bakgrunnsfarge for navigasjon */
+    padding: 10px; /* Padding for navigasjon */
+    text-align: center;
+}
+
+nav ul {
+    list-style: none; /* Fjerner punktmarkører fra lenker */
+}
+
+nav li {
+    display: inline; /* Plasserer lenkene ved siden av hverandre */
+    margin-right: 20px; /* Avstand mellom lenkene */
+}
+
+nav a {
+    text-decoration: none; /* Fjerner understreking fra lenkene */
+    color: #fff; /* Tekstfarge for lenkene */
+}
+
+/* Hovedinnhold-stil */
+main {
+    padding: 20px; /* Padding for hovedinnhold */
+}
+
+/* Footer-stil */
+footer {
+    background-color: #333; /* Bakgrunnsfarge for footer */
+    color: #fff; /* Tekstfarge for footer */
+    padding: 10px; /* Padding for footer */
+    text-align: center;
+}
+
+/* Media query for desktopversjon */
+@media screen and (min-width: 768px) {
+    /* Desktop Header-stil */
+    header {
+        padding: 30px; /* Økt padding for desktop header */
+    }
+
+    /* Desktop Navigasjon-stil */
+    nav {
+        background-color: #555; /* Endret bakgrunnsfarge for desktop navigasjon */
+        padding: 15px; /* Økt padding for desktop navigasjon */
+    }
+
+    nav li {
+        margin-right: 30px; /* Økt avstand mellom lenkene på desktop */
+    }
+
+    /* Desktop Hovedinnhold-stil */
+    main {
+        padding: 30px; /* Økt padding for desktop hovedinnhold */
+    }
+
+    /* Desktop Footer-stil */
+    footer {
+        padding: 15px; /* Økt padding for desktop footer */
+    }
+}
